@@ -1,0 +1,256 @@
+2024-05-09 14:51:12.623 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-09 14:51:13.084 -05:00 [DBG] Entity Framework Core 8.0.4 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.2+5a671b9769f2d00a75b0ba42ce30c444a12407e3' with options: None
+2024-05-09 14:51:13.657 -05:00 [DBG] 'ApplicationDbContext' disposed.
+2024-05-09 14:51:32.061 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-09 14:51:32.517 -05:00 [DBG] Entity Framework Core 8.0.4 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.2+5a671b9769f2d00a75b0ba42ce30c444a12407e3' with options: None
+2024-05-09 14:51:32.546 -05:00 [DBG] Creating DbConnection.
+2024-05-09 14:51:32.583 -05:00 [DBG] Created DbConnection. (34ms).
+2024-05-09 14:51:32.594 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.702 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.705 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.718 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (7ms).
+2024-05-09 14:51:32.726 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-05-09 14:51:32.733 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2024-05-09 14:51:32.736 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (11ms).
+2024-05-09 14:51:32.737 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.804 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.850 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2024-05-09 14:51:32.937 -05:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2024-05-09 14:51:32.941 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.944 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (3ms).
+2024-05-09 14:51:32.947 -05:00 [DBG] Migrating using database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.950 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.990 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.992 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:32.993 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (1ms).
+2024-05-09 14:51:32.995 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-05-09 14:51:32.997 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (1ms).
+2024-05-09 14:51:32.998 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (2ms).
+2024-05-09 14:51:33.000 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.003 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.004 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2024-05-09 14:51:33.008 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2024-05-09 14:51:33.010 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.012 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (1ms).
+2024-05-09 14:51:33.013 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.047 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.049 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.051 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (2ms).
+2024-05-09 14:51:33.112 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-05-09 14:51:33.114 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (1ms).
+2024-05-09 14:51:33.115 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-05-09 14:51:33.116 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.118 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.121 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2024-05-09 14:51:33.143 -05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" character varying(150) NOT NULL,
+    "ProductVersion" character varying(32) NOT NULL,
+    CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")
+);
+2024-05-09 14:51:33.146 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.147 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (1ms).
+2024-05-09 14:51:33.150 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.195 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.196 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.197 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (1ms).
+2024-05-09 14:51:33.200 -05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-05-09 14:51:33.202 -05:00 [DBG] Created DbCommand for 'ExecuteScalar' (2ms).
+2024-05-09 14:51:33.204 -05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (3ms).
+2024-05-09 14:51:33.205 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.207 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.208 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2024-05-09 14:51:33.212 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2024-05-09 14:51:33.214 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.216 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (1ms).
+2024-05-09 14:51:33.220 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.222 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.223 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-09 14:51:33.224 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-05-09 14:51:33.225 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-05-09 14:51:33.226 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-09 14:51:33.230 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-09 14:51:33.234 -05:00 [DBG] Closing data reader to 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.237 -05:00 [DBG] A data reader for 'demodb' on server 'tcp://localhost:5432' is being disposed after spending 4ms reading results.
+2024-05-09 14:51:33.239 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.240 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (1ms).
+2024-05-09 14:51:33.249 -05:00 [INF] Applying migration '20240509195113_Init'.
+2024-05-09 14:51:33.262 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.263 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.265 -05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-05-09 14:51:33.271 -05:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-05-09 14:51:33.272 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-05-09 14:51:33.273 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-05-09 14:51:33.274 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-05-09 14:51:33.275 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "FirstName" text NOT NULL,
+    "LastName" text NOT NULL,
+    "Department" text NOT NULL,
+    "Position" text NOT NULL,
+    "Salary" numeric NOT NULL,
+    CONSTRAINT "PK_Employees" PRIMARY KEY ("Id")
+);
+2024-05-09 14:51:33.289 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Employees" (
+    "Id" integer GENERATED BY DEFAULT AS IDENTITY,
+    "FirstName" text NOT NULL,
+    "LastName" text NOT NULL,
+    "Department" text NOT NULL,
+    "Position" text NOT NULL,
+    "Salary" numeric NOT NULL,
+    CONSTRAINT "PK_Employees" PRIMARY KEY ("Id")
+);
+2024-05-09 14:51:33.292 -05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-05-09 14:51:33.292 -05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-05-09 14:51:33.294 -05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (2ms).
+2024-05-09 14:51:33.295 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240509195113_Init', '8.0.4');
+2024-05-09 14:51:33.297 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240509195113_Init', '8.0.4');
+2024-05-09 14:51:33.300 -05:00 [DBG] Committing transaction.
+2024-05-09 14:51:33.305 -05:00 [DBG] Committed transaction.
+2024-05-09 14:51:33.307 -05:00 [DBG] Disposing transaction.
+2024-05-09 14:51:33.308 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.309 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (1ms).
+2024-05-09 14:51:33.312 -05:00 [DBG] 'ApplicationDbContext' disposed.
+2024-05-09 14:51:33.315 -05:00 [DBG] Disposing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:51:33.318 -05:00 [DBG] Disposed connection to database 'demodb' on server 'tcp://localhost:5432' (2ms).
+2024-05-09 14:52:04.741 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-09 14:52:04.822 -05:00 [DBG] Hosting starting
+2024-05-09 14:52:04.864 -05:00 [INF] Now listening on: http://localhost:5296
+2024-05-09 14:52:04.866 -05:00 [DBG] Loaded hosting startup assembly Api
+2024-05-09 14:52:04.868 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-09 14:52:04.870 -05:00 [INF] Hosting environment: Development
+2024-05-09 14:52:04.871 -05:00 [INF] Content root path: C:\Projects\DotnetDemo\Api
+2024-05-09 14:52:04.872 -05:00 [DBG] Hosting started
+2024-05-09 14:52:35.681 -05:00 [DBG] Connection id "0HN3GC69CPTTO" received FIN.
+2024-05-09 14:52:35.686 -05:00 [DBG] Connection id "0HN3GC69CPTTO" accepted.
+2024-05-09 14:52:35.687 -05:00 [DBG] Connection id "0HN3GC69CPTTO" started.
+2024-05-09 14:52:35.688 -05:00 [DBG] Connection id "0HN3GC69CPTTP" accepted.
+2024-05-09 14:52:35.689 -05:00 [DBG] Connection id "0HN3GC69CPTTP" started.
+2024-05-09 14:52:35.695 -05:00 [DBG] Connection id "0HN3GC69CPTTO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-09 14:52:35.699 -05:00 [DBG] Connection id "0HN3GC69CPTTO" disconnecting.
+2024-05-09 14:52:35.702 -05:00 [DBG] Connection id "0HN3GC69CPTTO" stopped.
+2024-05-09 14:52:35.716 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/api/employee - null null
+2024-05-09 14:52:35.723 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-09 14:52:35.767 -05:00 [DBG] 1 candidate(s) found for the request path '/api/employee'
+2024-05-09 14:52:35.773 -05:00 [DBG] Endpoint 'Api.Controllers.EmployeeController.GetAll (Api)' with route pattern 'api/employee' is valid for the request path '/api/employee'
+2024-05-09 14:52:35.775 -05:00 [DBG] Request matched endpoint 'Api.Controllers.EmployeeController.GetAll (Api)'
+2024-05-09 14:52:35.791 -05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-09 14:52:35.792 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-05-09 14:52:35.793 -05:00 [INF] Executing endpoint 'Api.Controllers.EmployeeController.GetAll (Api)'
+2024-05-09 14:52:35.808 -05:00 [INF] Route matched with {action = "GetAll", controller = "Employee"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller Api.Controllers.EmployeeController (Api).
+2024-05-09 14:52:35.810 -05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-09 14:52:35.812 -05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-09 14:52:35.813 -05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-05-09 14:52:35.814 -05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-09 14:52:35.815 -05:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-05-09 14:52:35.819 -05:00 [DBG] Executing controller factory for controller Api.Controllers.EmployeeController (Api)
+2024-05-09 14:52:35.984 -05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-05-09 14:52:35.996 -05:00 [DBG] Executed controller factory for controller Api.Controllers.EmployeeController (Api)
+2024-05-09 14:52:36.403 -05:00 [DBG] Entity Framework Core 8.0.4 initialized 'ApplicationDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:8.0.2+5a671b9769f2d00a75b0ba42ce30c444a12407e3' with options: None
+2024-05-09 14:52:36.426 -05:00 [DBG] Compiling query expression: 
+'DbSet<Employee>()'
+2024-05-09 14:52:36.611 -05:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Employee>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Employee.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Employee.Department (string) Required, 1], [Property: Employee.FirstName (string) Required, 2], [Property: Employee.LastName (string) Required, 3], [Property: Employee.Position (string) Required, 4], [Property: Employee.Salary (decimal) Required, 5] }
+        SELECT e.Id, e.Department, e.FirstName, e.LastName, e.Position, e.Salary
+        FROM Employees AS e), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Employee>, 
+    Api.Context.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2024-05-09 14:52:36.648 -05:00 [DBG] Creating DbConnection.
+2024-05-09 14:52:36.709 -05:00 [DBG] Created DbConnection. (60ms).
+2024-05-09 14:52:36.712 -05:00 [DBG] Opening connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:52:36.821 -05:00 [DBG] Opened connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:52:36.825 -05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-05-09 14:52:36.829 -05:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-05-09 14:52:36.831 -05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-05-09 14:52:36.838 -05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Department", e."FirstName", e."LastName", e."Position", e."Salary"
+FROM "Employees" AS e
+2024-05-09 14:52:36.861 -05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT e."Id", e."Department", e."FirstName", e."LastName", e."Position", e."Salary"
+FROM "Employees" AS e
+2024-05-09 14:52:36.918 -05:00 [DBG] Context 'ApplicationDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-09 14:52:36.944 -05:00 [DBG] Context 'ApplicationDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-09 14:52:36.946 -05:00 [DBG] Context 'ApplicationDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-09 14:52:36.948 -05:00 [DBG] Context 'ApplicationDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-09 14:52:36.950 -05:00 [DBG] Context 'ApplicationDbContext' started tracking 'Employee' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-05-09 14:52:36.957 -05:00 [DBG] Closing data reader to 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:52:36.968 -05:00 [DBG] A data reader for 'demodb' on server 'tcp://localhost:5432' is being disposed after spending 98ms reading results.
+2024-05-09 14:52:36.974 -05:00 [DBG] Closing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:52:36.980 -05:00 [DBG] Closed connection to database 'demodb' on server 'tcp://localhost:5432' (6ms).
+2024-05-09 14:52:36.983 -05:00 [INF] HomeController GetAll Employees Called
+2024-05-09 14:52:36.989 -05:00 [INF] Executing JsonResult, writing value of type 'System.Collections.Generic.List`1[[Api.Models.Employee, Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-09 14:52:37.024 -05:00 [INF] Executed action Api.Controllers.EmployeeController.GetAll (Api) in 1203.8388ms
+2024-05-09 14:52:37.029 -05:00 [INF] Executed endpoint 'Api.Controllers.EmployeeController.GetAll (Api)'
+2024-05-09 14:52:37.042 -05:00 [DBG] Connection id "0HN3GC69CPTTP" completed keep alive response.
+2024-05-09 14:52:37.053 -05:00 [DBG] 'ApplicationDbContext' disposed.
+2024-05-09 14:52:37.090 -05:00 [DBG] Disposing connection to database 'demodb' on server 'tcp://localhost:5432'.
+2024-05-09 14:52:37.116 -05:00 [DBG] Disposed connection to database 'demodb' on server 'tcp://localhost:5432' (26ms).
+2024-05-09 14:52:37.125 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/api/employee - 200 null application/json; charset=utf-8 1410.2018ms
+2024-05-09 14:54:48.882 -05:00 [DBG] Connection id "0HN3GC69CPTTP" disconnecting.
+2024-05-09 14:54:48.890 -05:00 [DBG] Connection id "0HN3GC69CPTTP" stopped.
+2024-05-09 14:54:48.893 -05:00 [DBG] Connection id "0HN3GC69CPTTP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-09 14:58:47.135 -05:00 [INF] Application is shutting down...
+2024-05-09 14:58:47.136 -05:00 [DBG] Hosting stopping
+2024-05-09 14:58:47.144 -05:00 [DBG] Hosting stopped

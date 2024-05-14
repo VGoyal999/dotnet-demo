@@ -1,0 +1,17 @@
+[*]
+
+indent_size = 4
+indent_style = space
+end_of_line = crlf
+charset = utf-8
+trim_trailing_whitespace = false
+insert_final_newline = false
+end_of_line = crlf
+max_line_size = 110
+[*.cs]
+
+# CA1848: Use the LoggerMessage delegates
+dotnet_diagnostic.CA1848.severity = none
+
+# CA2254: Template should be a static expression
+dotnet_diagnostic.CA2254.severity = none

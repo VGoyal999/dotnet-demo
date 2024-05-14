@@ -1,0 +1,363 @@
+2024-05-13 09:55:29.635 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-13 09:55:29.837 -05:00 [DBG] Hosting starting
+2024-05-13 09:55:30.091 -05:00 [INF] User profile is available. Using 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 09:55:30.101 -05:00 [DBG] Reading data from file 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys\key-d582018b-f384-4a9f-8093-c5aa33f0f895.xml'.
+2024-05-13 09:55:30.144 -05:00 [DBG] Found key {d582018b-f384-4a9f-8093-c5aa33f0f895}.
+2024-05-13 09:55:30.158 -05:00 [DBG] Considering key {d582018b-f384-4a9f-8093-c5aa33f0f895} with expiration date 2024-07-01 16:46:50Z as default key.
+2024-05-13 09:55:30.162 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:55:30.166 -05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-13 09:55:30.169 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:55:30.175 -05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-13 09:55:30.178 -05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-13 09:55:30.182 -05:00 [DBG] Using key {d582018b-f384-4a9f-8093-c5aa33f0f895} as the default key.
+2024-05-13 09:55:30.185 -05:00 [DBG] Key ring with default key {d582018b-f384-4a9f-8093-c5aa33f0f895} was loaded during application startup.
+2024-05-13 09:55:30.579 -05:00 [INF] Now listening on: http://localhost:5296
+2024-05-13 09:55:30.581 -05:00 [DBG] Loaded hosting startup assembly Api
+2024-05-13 09:55:30.582 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 09:55:30.583 -05:00 [INF] Hosting environment: Development
+2024-05-13 09:55:30.584 -05:00 [INF] Content root path: C:\Projects\DotnetDemo\Api
+2024-05-13 09:55:30.586 -05:00 [DBG] Hosting started
+2024-05-13 09:55:43.249 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" accepted.
+2024-05-13 09:55:43.256 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" started.
+2024-05-13 09:55:43.256 -05:00 [DBG] Connection id "0HN3JBJ1MKF8D" accepted.
+2024-05-13 09:55:43.260 -05:00 [DBG] Connection id "0HN3JBJ1MKF8D" started.
+2024-05-13 09:55:43.393 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/ - null null
+2024-05-13 09:55:43.398 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-13 09:55:43.425 -05:00 [DBG] 1 candidate(s) found for the request path '/'
+2024-05-13 09:55:43.430 -05:00 [DBG] Endpoint 'Api.Controllers.HomeController.Index (Api)' with route pattern '{Controller=Home}/{Action=Index}/{id?}' is valid for the request path '/'
+2024-05-13 09:55:43.432 -05:00 [DBG] Request matched endpoint 'Api.Controllers.HomeController.Index (Api)'
+2024-05-13 09:55:43.456 -05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-05-13 09:55:43.458 -05:00 [WRN] Failed to determine the https port for redirect.
+2024-05-13 09:55:43.467 -05:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-05-13 09:55:43.475 -05:00 [INF] Executing endpoint 'Api.Controllers.HomeController.Index (Api)'
+2024-05-13 09:55:43.496 -05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller Api.Controllers.HomeController (Api).
+2024-05-13 09:55:43.499 -05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-05-13 09:55:43.501 -05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-05-13 09:55:43.504 -05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-05-13 09:55:43.508 -05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-05-13 09:55:43.510 -05:00 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-05-13 09:55:43.554 -05:00 [DBG] Executing controller factory for controller Api.Controllers.HomeController (Api)
+2024-05-13 09:55:43.570 -05:00 [DBG] Executed controller factory for controller Api.Controllers.HomeController (Api)
+2024-05-13 09:55:43.581 -05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-05-13 09:55:43.614 -05:00 [DBG] No information found on request to perform content negotiation.
+2024-05-13 09:55:43.615 -05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-13 09:55:43.616 -05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-13 09:55:43.618 -05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2024-05-13 09:55:43.621 -05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2024-05-13 09:55:43.676 -05:00 [INF] Executed action Api.Controllers.HomeController.Index (Api) in 131.8703ms
+2024-05-13 09:55:43.681 -05:00 [INF] Executed endpoint 'Api.Controllers.HomeController.Index (Api)'
+2024-05-13 09:55:43.682 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" completed keep alive response.
+2024-05-13 09:55:43.684 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/ - 200 null text/plain; charset=utf-8 293.639ms
+2024-05-13 09:55:43.766 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/favicon.ico - null null
+2024-05-13 09:55:43.774 -05:00 [DBG] No candidates found for the request path '/favicon.ico'
+2024-05-13 09:55:43.776 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:55:43.779 -05:00 [DBG] The request path  does not match the path filter
+2024-05-13 09:55:43.782 -05:00 [DBG] AuthenticationScheme: Identity.Application was not authenticated.
+2024-05-13 09:55:43.786 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" completed keep alive response.
+2024-05-13 09:55:43.790 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/favicon.ico - 404 0 null 23.1766ms
+2024-05-13 09:55:43.795 -05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5296/favicon.ico, Response status code: 404
+2024-05-13 09:55:47.785 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:55:47.791 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:55:47.792 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:55:47.869 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" completed keep alive response.
+2024-05-13 09:55:47.871 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 86.1075ms
+2024-05-13 09:55:48.030 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:55:48.032 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:55:48.034 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:55:48.148 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" completed keep alive response.
+2024-05-13 09:55:48.150 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.9094ms
+2024-05-13 09:56:21.409 -05:00 [INF] Application is shutting down...
+2024-05-13 09:56:21.410 -05:00 [DBG] Hosting stopping
+2024-05-13 09:56:21.419 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" disconnecting.
+2024-05-13 09:56:21.419 -05:00 [DBG] Connection id "0HN3JBJ1MKF8D" disconnecting.
+2024-05-13 09:56:21.423 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" stopped.
+2024-05-13 09:56:21.423 -05:00 [DBG] Connection id "0HN3JBJ1MKF8D" stopped.
+2024-05-13 09:56:21.425 -05:00 [DBG] Connection id "0HN3JBJ1MKF8C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-13 09:56:21.426 -05:00 [DBG] Connection id "0HN3JBJ1MKF8D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-13 09:56:21.430 -05:00 [DBG] Hosting stopped
+2024-05-13 09:56:41.891 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-13 09:56:42.027 -05:00 [DBG] Hosting starting
+2024-05-13 09:56:42.047 -05:00 [INF] User profile is available. Using 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 09:56:42.059 -05:00 [DBG] Reading data from file 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys\key-d582018b-f384-4a9f-8093-c5aa33f0f895.xml'.
+2024-05-13 09:56:42.072 -05:00 [DBG] Found key {d582018b-f384-4a9f-8093-c5aa33f0f895}.
+2024-05-13 09:56:42.086 -05:00 [DBG] Considering key {d582018b-f384-4a9f-8093-c5aa33f0f895} with expiration date 2024-07-01 16:46:50Z as default key.
+2024-05-13 09:56:42.090 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:56:42.093 -05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-13 09:56:42.095 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:56:42.098 -05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-13 09:56:42.099 -05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-13 09:56:42.100 -05:00 [DBG] Using key {d582018b-f384-4a9f-8093-c5aa33f0f895} as the default key.
+2024-05-13 09:56:42.101 -05:00 [DBG] Key ring with default key {d582018b-f384-4a9f-8093-c5aa33f0f895} was loaded during application startup.
+2024-05-13 09:56:42.162 -05:00 [INF] Now listening on: http://localhost:5296
+2024-05-13 09:56:42.162 -05:00 [DBG] Loaded hosting startup assembly Api
+2024-05-13 09:56:42.162 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-13 09:56:42.162 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 09:56:42.163 -05:00 [INF] Hosting environment: Development
+2024-05-13 09:56:42.163 -05:00 [INF] Content root path: C:\Projects\DotnetDemo\Api
+2024-05-13 09:56:42.163 -05:00 [DBG] Hosting started
+2024-05-13 09:56:42.381 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" accepted.
+2024-05-13 09:56:42.382 -05:00 [DBG] Connection id "0HN3JBJJAIFCQ" accepted.
+2024-05-13 09:56:42.383 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" started.
+2024-05-13 09:56:42.392 -05:00 [DBG] Connection id "0HN3JBJJAIFCQ" started.
+2024-05-13 09:56:42.437 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:56:42.456 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-13 09:56:42.493 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:56:42.494 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:56:42.646 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:56:42.660 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:56:42.660 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:56:42.662 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 228.7571ms
+2024-05-13 09:56:42.740 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:56:42.745 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:56:42.746 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 5.2851ms
+2024-05-13 09:56:42.877 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:56:42.879 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:56:42.879 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:56:43.006 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Api.Controllers.HelloWorldController.Index (Api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-13 09:56:43.070 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:56:43.071 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 193.3513ms
+2024-05-13 09:56:52.365 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:56:52.365 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:56:52.365 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:56:52.367 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:56:52.367 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:56:52.367 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:56:52.367 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 2.5575ms
+2024-05-13 09:56:52.407 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:56:52.408 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:56:52.408 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.9867ms
+2024-05-13 09:56:52.470 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:56:52.471 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:56:52.471 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:56:52.476 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Api.Controllers.HelloWorldController.Index (Api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-13 09:56:52.479 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:56:52.479 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 8.519ms
+2024-05-13 09:57:01.155 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:57:01.156 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:57:01.156 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:01.160 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:57:01.160 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:57:01.160 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:01.161 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 5.2227ms
+2024-05-13 09:57:01.203 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:57:01.203 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:01.204 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.8062ms
+2024-05-13 09:57:01.251 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:57:01.253 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:57:01.253 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:01.282 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:01.282 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.076ms
+2024-05-13 09:57:19.782 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:57:19.782 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:57:19.782 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:19.789 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:57:19.790 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:57:19.790 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:19.790 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 8.008ms
+2024-05-13 09:57:19.841 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:57:19.841 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:19.841 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3791ms
+2024-05-13 09:57:19.942 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:57:19.943 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:57:19.943 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:19.946 -05:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - Api.Controllers.HelloWorldController.Index (Api). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-05-13 09:57:19.947 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:19.947 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 500 null text/plain; charset=utf-8 5.102ms
+2024-05-13 09:57:26.924 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:57:26.924 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:57:26.924 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:26.931 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:57:26.931 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:57:26.932 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:26.932 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 7.4465ms
+2024-05-13 09:57:26.986 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:57:26.987 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:26.987 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 1.1259ms
+2024-05-13 09:57:27.085 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:57:27.087 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:57:27.087 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:27.092 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:27.092 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 6.9243ms
+2024-05-13 09:57:43.372 -05:00 [DBG] Connection id "0HN3JBJJAIFCQ" received FIN.
+2024-05-13 09:57:43.374 -05:00 [DBG] Connection id "0HN3JBJJAIFCR" accepted.
+2024-05-13 09:57:43.374 -05:00 [DBG] Connection id "0HN3JBJJAIFCQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-13 09:57:43.375 -05:00 [DBG] Connection id "0HN3JBJJAIFCQ" disconnecting.
+2024-05-13 09:57:43.375 -05:00 [DBG] Connection id "0HN3JBJJAIFCR" started.
+2024-05-13 09:57:43.377 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:57:43.377 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:57:43.377 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:43.377 -05:00 [DBG] Connection id "0HN3JBJJAIFCQ" stopped.
+2024-05-13 09:57:43.390 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:57:43.391 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:57:43.391 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:43.391 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 14.1882ms
+2024-05-13 09:57:43.459 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:57:43.459 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:43.459 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3888ms
+2024-05-13 09:57:43.564 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:57:43.565 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:57:43.565 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:43.569 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:43.570 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.9781ms
+2024-05-13 09:57:57.122 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:57:57.122 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:57:57.122 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:57.127 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:57:57.127 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:57:57.127 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:57.128 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 5.9079ms
+2024-05-13 09:57:57.208 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:57:57.208 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:57.208 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.4441ms
+2024-05-13 09:57:57.317 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:57:57.318 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:57:57.319 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:57.323 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:57.323 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 5.7337ms
+2024-05-13 09:57:59.631 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:57:59.631 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:57:59.631 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:59.631 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:57:59.632 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:57:59.632 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:59.632 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 0.9596ms
+2024-05-13 09:57:59.685 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:57:59.691 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:59.692 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 6.8905ms
+2024-05-13 09:57:59.763 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:57:59.764 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:57:59.764 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:57:59.766 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:57:59.766 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2.5195ms
+2024-05-13 09:58:02.116 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:58:02.116 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:58:02.116 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:58:02.116 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:58:02.116 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:58:02.116 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:58:02.116 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 0.7868ms
+2024-05-13 09:58:02.152 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:58:02.153 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:58:02.153 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 0.3594ms
+2024-05-13 09:58:02.189 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:58:02.190 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:58:02.190 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:58:02.193 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" completed keep alive response.
+2024-05-13 09:58:02.193 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 4.1561ms
+2024-05-13 09:58:14.101 -05:00 [INF] Application is shutting down...
+2024-05-13 09:58:14.103 -05:00 [DBG] Hosting stopping
+2024-05-13 09:58:14.109 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" disconnecting.
+2024-05-13 09:58:14.109 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" stopped.
+2024-05-13 09:58:14.109 -05:00 [DBG] Connection id "0HN3JBJJAIFCR" disconnecting.
+2024-05-13 09:58:14.109 -05:00 [DBG] Connection id "0HN3JBJJAIFCR" stopped.
+2024-05-13 09:58:14.109 -05:00 [DBG] Connection id "0HN3JBJJAIFCP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-13 09:58:14.110 -05:00 [DBG] Connection id "0HN3JBJJAIFCR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-13 09:58:14.112 -05:00 [DBG] Hosting stopped
+2024-05-13 09:58:25.024 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-13 09:58:25.165 -05:00 [DBG] Hosting starting
+2024-05-13 09:58:25.180 -05:00 [INF] User profile is available. Using 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 09:58:25.187 -05:00 [DBG] Reading data from file 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys\key-d582018b-f384-4a9f-8093-c5aa33f0f895.xml'.
+2024-05-13 09:58:25.195 -05:00 [DBG] Found key {d582018b-f384-4a9f-8093-c5aa33f0f895}.
+2024-05-13 09:58:25.204 -05:00 [DBG] Considering key {d582018b-f384-4a9f-8093-c5aa33f0f895} with expiration date 2024-07-01 16:46:50Z as default key.
+2024-05-13 09:58:25.207 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:58:25.209 -05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-13 09:58:25.211 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:58:25.214 -05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-13 09:58:25.214 -05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-13 09:58:25.215 -05:00 [DBG] Using key {d582018b-f384-4a9f-8093-c5aa33f0f895} as the default key.
+2024-05-13 09:58:25.216 -05:00 [DBG] Key ring with default key {d582018b-f384-4a9f-8093-c5aa33f0f895} was loaded during application startup.
+2024-05-13 09:58:25.271 -05:00 [INF] Now listening on: http://localhost:5296
+2024-05-13 09:58:25.271 -05:00 [DBG] Loaded hosting startup assembly Api
+2024-05-13 09:58:25.271 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-13 09:58:25.272 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 09:58:25.272 -05:00 [INF] Hosting environment: Development
+2024-05-13 09:58:25.272 -05:00 [INF] Content root path: C:\Projects\DotnetDemo\Api
+2024-05-13 09:58:25.272 -05:00 [DBG] Hosting started
+2024-05-13 09:58:25.459 -05:00 [DBG] Connection id "0HN3JBKI1JFV1" accepted.
+2024-05-13 09:58:25.460 -05:00 [DBG] Connection id "0HN3JBKI1JFV2" accepted.
+2024-05-13 09:58:25.461 -05:00 [DBG] Connection id "0HN3JBKI1JFV1" started.
+2024-05-13 09:58:25.463 -05:00 [DBG] Connection id "0HN3JBKI1JFV2" started.
+2024-05-13 09:58:25.499 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:58:25.511 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-13 09:58:25.535 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:58:25.537 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:58:25.656 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:58:25.665 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:58:25.665 -05:00 [DBG] Connection id "0HN3JBKI1JFV1" completed keep alive response.
+2024-05-13 09:58:25.669 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 169.3675ms
+2024-05-13 09:58:25.726 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:58:25.729 -05:00 [DBG] Connection id "0HN3JBKI1JFV1" completed keep alive response.
+2024-05-13 09:58:25.730 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 3.1229ms
+2024-05-13 09:58:25.843 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:58:25.845 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:58:25.845 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:58:25.962 -05:00 [DBG] Connection id "0HN3JBKI1JFV1" completed keep alive response.
+2024-05-13 09:58:25.962 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 119.0706ms
+2024-05-13 09:58:40.766 -05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-13 09:58:40.847 -05:00 [DBG] Hosting starting
+2024-05-13 09:58:40.861 -05:00 [INF] User profile is available. Using 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-13 09:58:40.866 -05:00 [DBG] Reading data from file 'C:\Users\vgoyal\AppData\Local\ASP.NET\DataProtection-Keys\key-d582018b-f384-4a9f-8093-c5aa33f0f895.xml'.
+2024-05-13 09:58:40.875 -05:00 [DBG] Found key {d582018b-f384-4a9f-8093-c5aa33f0f895}.
+2024-05-13 09:58:40.883 -05:00 [DBG] Considering key {d582018b-f384-4a9f-8093-c5aa33f0f895} with expiration date 2024-07-01 16:46:50Z as default key.
+2024-05-13 09:58:40.885 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:58:40.887 -05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-13 09:58:40.889 -05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-13 09:58:40.892 -05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-13 09:58:40.893 -05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-13 09:58:40.894 -05:00 [DBG] Using key {d582018b-f384-4a9f-8093-c5aa33f0f895} as the default key.
+2024-05-13 09:58:40.894 -05:00 [DBG] Key ring with default key {d582018b-f384-4a9f-8093-c5aa33f0f895} was loaded during application startup.
+2024-05-13 09:58:40.939 -05:00 [INF] Now listening on: http://localhost:5296
+2024-05-13 09:58:40.939 -05:00 [DBG] Loaded hosting startup assembly Api
+2024-05-13 09:58:40.939 -05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-13 09:58:40.940 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-13 09:58:40.940 -05:00 [INF] Hosting environment: Development
+2024-05-13 09:58:40.940 -05:00 [INF] Content root path: C:\Projects\DotnetDemo\Api
+2024-05-13 09:58:40.940 -05:00 [DBG] Hosting started
+2024-05-13 09:58:40.964 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" accepted.
+2024-05-13 09:58:40.965 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" started.
+2024-05-13 09:58:40.965 -05:00 [DBG] Connection id "0HN3JBKMLFBT5" accepted.
+2024-05-13 09:58:40.965 -05:00 [DBG] Connection id "0HN3JBKMLFBT5" started.
+2024-05-13 09:58:40.993 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/index.html - null null
+2024-05-13 09:58:40.997 -05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-13 09:58:41.010 -05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-05-13 09:58:41.010 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:58:41.072 -05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-13 09:58:41.078 -05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-13 09:58:41.078 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" completed keep alive response.
+2024-05-13 09:58:41.080 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/index.html - 200 null text/html;charset=utf-8 88.582ms
+2024-05-13 09:58:41.129 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-13 09:58:41.131 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" completed keep alive response.
+2024-05-13 09:58:41.132 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/_framework/aspnetcore-browser-refresh.js - 200 13732 application/javascript; charset=utf-8 2.2446ms
+2024-05-13 09:58:41.197 -05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - null null
+2024-05-13 09:58:41.198 -05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-13 09:58:41.198 -05:00 [DBG] Request did not match any endpoints
+2024-05-13 09:58:41.278 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" completed keep alive response.
+2024-05-13 09:58:41.278 -05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5296/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 80.8957ms
+2024-05-13 09:59:50.262 -05:00 [DBG] Connection id "0HN3JBKMLFBT5" received FIN.
+2024-05-13 09:59:50.263 -05:00 [DBG] Connection id "0HN3JBKMLFBT5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-13 09:59:50.264 -05:00 [DBG] Connection id "0HN3JBKMLFBT5" disconnecting.
+2024-05-13 09:59:50.265 -05:00 [DBG] Connection id "0HN3JBKMLFBT5" stopped.
+2024-05-13 10:00:52.832 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" disconnecting.
+2024-05-13 10:00:52.833 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" stopped.
+2024-05-13 10:00:52.833 -05:00 [DBG] Connection id "0HN3JBKMLFBT4" sending FIN because: "The Socket transport's send loop completed gracefully."
